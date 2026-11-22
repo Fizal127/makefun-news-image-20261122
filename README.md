@@ -18,17 +18,17 @@ stories with large drawn illustrations, ten more stories in a grid with small dr
 pictograms, a numbered world map, a 22-item "also on" list, a date-check box and a
 sources line. Final image:
 [`output/entry.png`](output/entry.png)
-(61,363 bytes, PNG, sha256
-`f71444500dba43f6bc2cc2da39fb9f5af7cc2a80b5142f0f478f6dab1545b824`).
+(34,466 bytes, PNG, sha256
+`d4b057e5c23eeed396d76ecca9234f99cfc8d7a48f5e38e0f49cccbde309a0d6`).
 
 ![The Day in One Image — Sunday 22 November 2026](output/entry.png)
 
 The page is drawn to read like a real newspaper at a glance: warm paper,
-a black pixel masthead, red banners on the three lead stories, an orange
-desert raid scene, a dark Riemann board with a green checkmark, a
-seven-colour region bar (Europe blue, Asia red, Mideast gold, Africa
-green, Americas purple, Oceania grey, Global dark), and a yellow world
-map with red numbered pins matching the stories.
+a black pixel masthead, red big-number boxes, an orange desert raid scene,
+a dark Riemann board with a green checkmark, a seven-colour region bar
+(Europe blue, Asia red, Mideast gold, Africa green, Americas purple,
+Oceania grey, Global dark), and a pale world map with red numbered pins
+matching the stories.
 
 ## Stories used (all dated 22 Nov 2026)
 
@@ -73,8 +73,8 @@ python3 main.py   # writes output/entry.png (or /output/entry.png in the grader)
   does not exist). Same bytes on every run.
 - `main_src.py` — the readable source of the entry: a small rasterizer with
   an embedded 5x7 bitmap font, the news data (35 stories), thirteen drawn
-  illustrations (Bahrain strike scene, Sinaloa raid, Riemann board, ten grid
-  pictograms), a numbered world map, and a minimal PNG encoder (zlib).
+  illustrations (tanker strike, Sinaloa helicopter raid, Riemann zeta board,
+  ten grid pictograms), a numbered world map, and a minimal PNG encoder (zlib).
 - `output/entry.png` — the final image (also what `main.py` produces).
 - `LICENSE` — MIT.
 - `.makefun/owner.json` — names the entry wallet on the make.fun account.
